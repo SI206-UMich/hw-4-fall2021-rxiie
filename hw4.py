@@ -87,13 +87,13 @@ class Stall:
     
     def has_item(self, name, quantity):
         if name in self.inventory.keys():
-            if self.inventory[food_name] >= quantity:
+            if self.inventory[name] >= quantity:
                 return True
             else:
                 return False 
     
     def stock_up(self, name, quantity):
-        if food_name in self.inventory:
+        if name in self.inventory:
             self.inventory[name] += quantity
         else:
             self.inventory[name] = quantity 
