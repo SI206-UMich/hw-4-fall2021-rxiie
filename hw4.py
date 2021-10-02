@@ -243,7 +243,6 @@ def main():
     #case 4: the customer successfully places an order
     f3.validate_order(c2,s2, "Tzatziki", 5)
 
-    pass
 
 if __name__ == "__main__":
 	main()
